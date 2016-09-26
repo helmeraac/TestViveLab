@@ -1,0 +1,17 @@
+<html>
+<head>
+	<script src="script.js" type="text/javascript"></script>
+	<title>
+		ViveLab
+	</title>
+</head>
+<body>
+	<form action="#" onsubmit="return false;">
+
+		<input type="text" name="num1" id="num1"/> 
+		<input type="text" name="num2" id="num2"/>
+		<input type="submit" name="button" value="SUMA" onclick="alert(httpGet('sumService.php?num1=' + document.getElementById('num1').value +'&num2='+document.getElementById('num2').value))" />
+
+	</form>
+</body>
+</html>
